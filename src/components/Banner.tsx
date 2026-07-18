@@ -16,7 +16,7 @@ export default function Banner() {
 
         <button className="transparent">
           <i>description</i>
-          <span>Documentation</span>
+          <span>Docs</span>
         </button>
       </nav>
     </article>
