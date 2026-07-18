@@ -1,0 +1,14 @@
+.hero-banner {
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-banner h3 {
+  margin-bottom: 0.5rem;
+}
+
+.hero-banner nav {
+  margin-top: 1.5rem;
+}
