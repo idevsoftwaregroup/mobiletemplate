@@ -1,8 +1,9 @@
 import { useState } from "react";
+import logo from "../assets/new-logo.png"
 
 export default function Navbar() {
   const [active, setActive] = useState("home");
-  const logo = "../src/assets/new-logo.png";
+
 
   return (
     <>
