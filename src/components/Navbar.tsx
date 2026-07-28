@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/new-logo.png"
+import logo from "../assets/mainlogo.png"
 
 export default function Navbar() {
   const [active, setActive] = useState("home");
@@ -9,7 +9,6 @@ export default function Navbar() {
     <>
       <header className="fixed">
         <nav>
-          {/*<h6 className="max"><b>W</b>rit<b>INK</b></h6>*/}
           <h6 className="max">
           <img src={logo} className="large"/>
           </h6>
