@@ -56,5 +56,5 @@
 
 
 body {
-    font-family: "DastKhat", sans-serif;
+    font-family: "DastKhat", sans-serif !important;
 }
