@@ -6,7 +6,7 @@ export default function Banner() {
   };
   return (
     <article className="hero-banner primary-container round padding">
-      <h3 className={rightAlign()}>🚀 { header }</h3>
+      <h3 className={rightAlign()}>{ header } 🚀</h3>
 
       <p>
         { description }
