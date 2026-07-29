@@ -29,7 +29,7 @@ export default function Navbar() {
           onClick={() => setActive("home")}
         >
           <i>home</i>
-          <span>Home</span>
+          <span>خانه</span>
         </a>
 
         <a
@@ -37,7 +37,7 @@ export default function Navbar() {
           onClick={() => setActive("users")}
         >
           <i>groups</i>
-          <span>Users</span>
+          <span>کاربران</span>
         </a>
 
         <a
@@ -45,7 +45,7 @@ export default function Navbar() {
           onClick={() => setActive("forms")}
         >
           <i>description</i>
-          <span>Forms</span>
+          <span>فرم ها</span>
         </a>
 
         <a
@@ -53,7 +53,7 @@ export default function Navbar() {
           onClick={() => setActive("settings")}
         >
           <i>settings</i>
-          <span>Settings</span>
+          <span>تنظیمات</span>
         </a>
       </nav>
     </>
