@@ -15,7 +15,7 @@ export default function Banner() {
     <article className="hero-banner inverse-surface round padding">
       <h3 className={style.rightAlign}>{ header } 🚀</h3>
 
-      <p>
+      <p className={style.rightAlign}>
         { description }
       </p>
 
