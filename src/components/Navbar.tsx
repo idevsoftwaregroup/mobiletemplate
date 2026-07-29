@@ -7,17 +7,17 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed">
+      <header className="fixed medium-padding">
         <nav>
           <h6 className="max">
-          <img src={logo} className="large"/>
+            <img src={logo} className="large"/>
           </h6>
 
-          <button className="circle transparent">
+          <button className="circle transparent large">
             <i>search</i>
           </button>
 
-          <button className="circle transparent">
+          <button className="circle transparent large">
             <i>account_circle</i>
           </button>
         </nav>
