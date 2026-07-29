@@ -3,7 +3,12 @@ import logo from "../assets/mainlogo.png"
 
 export default function Navbar() {
   const [active, setActive] = useState("home");
-
+  const style = {
+    dirRTL: "RTL",
+    dirLTR: "LTr",
+    bottom: "bottom",
+    large: "large"
+  }
 
   return (
     <>
@@ -14,16 +19,16 @@ export default function Navbar() {
           </h6>
 
           <button className="circle transparent large">
-            <i>search</i>
+            <i className={`${style.large}`}>search</i>
           </button>
 
           <button className="circle transparent large">
-            <i>account_circle</i>
+            <i className={`${style.large}`}>account_circle</i>
           </button>
         </nav>
       </header>
 
-      <nav className="bottom">
+      <nav className={`${style.bottom}`} dir={style.dirRTL}>
         <a
           className={active === "home" ? "active" : ""}
           onClick={() => setActive("home")}
@@ -37,7 +42,7 @@ export default function Navbar() {
           onClick={() => setActive("users")}
         >
           <i>groups</i>
-          <span>کاربران</span>
+          <span>آکادمی</span>
         </a>
 
         <a
@@ -45,7 +50,7 @@ export default function Navbar() {
           onClick={() => setActive("forms")}
         >
           <i>description</i>
-          <span>فرم ها</span>
+          <span>مشاوره</span>
         </a>
 
         <a
@@ -53,7 +58,7 @@ export default function Navbar() {
           onClick={() => setActive("settings")}
         >
           <i>settings</i>
-          <span>تنظیمات</span>
+          <span>پروژه ها</span>
         </a>
       </nav>
     </>

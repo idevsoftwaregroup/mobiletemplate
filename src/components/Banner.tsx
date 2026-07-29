@@ -20,14 +20,14 @@ export default function Banner() {
       </p>
 
       <nav className={style.rightAlign}>
-        <button className="primary slow-ripple">
-          <i>rocket_launch</i>
-          <span>راه اندازی اولیه</span>
+        <button className="light-green6 slow-ripple extend circle">
+          <i>info</i>
+          <span>درباره ما</span>
         </button>
 
-        <button className="tertiary">
-          <i>description</i>
-          <span>مستندات</span>
+        <button className="blue6 extend circle">
+          <i>book_4</i>
+          <span>دوره های ما</span>
         </button>
       </nav>
     </article>
