@@ -25,7 +25,7 @@ export default function Banner() {
           <span>راه اندازی اولیه</span>
         </button>
 
-        <button className="danger">
+        <button className="tertiary">
           <i>description</i>
           <span>مستندات</span>
         </button>
