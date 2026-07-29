@@ -10,7 +10,7 @@ export default function LayoutComponent() {
       <main className="responsive">
         <div className="no-space"></div>
 
-        <article className="card padding">
+        <article className="card padding surface-container-highest">
           <Banner />
         </article>
 
