@@ -11,14 +11,15 @@ export default function LayoutComponent() {
       <main className="responsive padding">
 
         <div className="responsive">
-            <div className="no-space"></div>
+          <div className="no-space"></div>
             <div className="field label suffix no-border round extra custom-input ">
                 <input type="text" />
                 <label >جستجو کن</label>
                 <i>search</i>
             </div>
         </div>
-        <div className="space top">
+        <div className="top no-padding">
+            <div className="space"></div>
           <Banner />
         </div>
 
