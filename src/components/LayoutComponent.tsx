@@ -18,7 +18,7 @@ export default function LayoutComponent() {
                 <i>search</i>
             </div>
         </div>
-        <div className="responsive">
+        <div className="space top">
           <Banner />
         </div>
 
