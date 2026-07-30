@@ -18,13 +18,21 @@ export default function Navbar() {
             <img src={logo} className="large"/>
           </h6>
 
-          <button className="circle transparent large">
-            <i className={`${style.large}`}>search</i>
-          </button>
 
           <button className="circle transparent large">
             <i className={`${style.large}`}>account_circle</i>
           </button>
+          <menu className="gray-container">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </menu>
+
+
+          <a href="tel:+989024276771" className="circle transparent large">
+            <i className={`${style.large}`}>call</i>
+          </a>
+
         </nav>
       </header>
 
