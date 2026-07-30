@@ -34,7 +34,8 @@ export default function Banner() {
   const style = {
     margin: "margin",
     top: "top5",
-    bottom: "bottom5"
+    bottom: "bottom5",
+    centerAlign: "center-align"
   }
 
     return (
@@ -53,11 +54,11 @@ export default function Banner() {
 
                         <article className="card no-border blue-gray">
 
-                            <img src={item.image} />
+                      <div className={style.centerAlign}><img src={item.image} /></div>
 
-                            <button className="button primary">
-                                Learn More
-                            </button>
+                            <text className="gray small right-align">
+                                محصول
+                            </text>
 
                         </article>
 
