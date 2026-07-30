@@ -7,7 +7,7 @@ export default function LayoutComponent() {
     <>
       <Navbar />
 
-      <main className="responsive padding">
+      <main className="responsive ">
 
         <div className="max">
 
