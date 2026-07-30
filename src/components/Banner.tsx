@@ -1,35 +1,73 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+
+
 export default function Banner() {
-  const description = "دست‌خط بستری برای انتشار دانش، تجربه و ایده‌های نو در دنیای فناوری، برنامه‌نویسی، امنیت، طراحی و خلاقیت دیجیتال است؛ جایی که تفکر انسان با تکنولوژی به زبان جدیدی تبدیل می‌شود."
-  const header = "دست خط";
-// some styles
+
+    const slides = [
+        {
+            title: "Technology Consulting",
+            text: "Build scalable systems",
+        image: "https://ombe.dexignzone.com/xhtml/img/products/featured/pic1.png",
+            width: "150px"
+        },
+        {
+          title: "Technology Consulting",
+          text: "Build scalable systems",
+      image: "https://ombe.dexignzone.com/xhtml/img/products/featured/pic2.png",
+          width: "150px"
+        },
+        {
+          title: "Technology Consulting",
+          text: "Build scalable systems",
+      image: "https://ombe.dexignzone.com/xhtml/img/products/featured/pic1.png",
+          width: "150px"
+        }, {
+          title: "Technology Consulting",
+          text: "Build scalable systems",
+      image: "https://ombe.dexignzone.com/xhtml/img/products/featured/pic2.png",
+          width: "150px"
+        }
+    ];
+
   const style = {
-    rightAlign: "right-align",
-    leftAlign: "left-align",
-    smallHeader: "small",
-    mediumHeader: "medium",
-    largeHeader: "large"
+    margin: "margin",
+    top: "top5",
+    bottom: "bottom5"
   }
 
+    return (
 
-  return (
-    <article className="hero-banner inverse-surface round padding">
-      <h3 className={style.rightAlign}>{ header } 🚀</h3>
+        <Swiper
+            spaceBetween={20}
+            slidesPerView={2}
+            loop={true}
+            className={`${style.margin} ${style.top} ${style.bottom}`}
+        >
 
-      <p className={style.rightAlign}>
-        { description }
-      </p>
+            {
+                slides.map((item, index)=>(
 
-      <nav className={style.rightAlign}>
-        <button className="light-green6 slow-ripple extend circle">
-          <i>info</i>
-          <span>درباره ما</span>
-        </button>
+                    <SwiperSlide key={index}>
 
-        <button className="blue6 extend circle">
-          <i>book_4</i>
-          <span>دوره های ما</span>
-        </button>
-      </nav>
-    </article>
-  );
+                        <article className="card no-border blue-gray">
+
+                            <img src={item.image} />
+
+                            <button className="button primary">
+                                Learn More
+                            </button>
+
+                        </article>
+
+                    </SwiperSlide>
+
+                ))
+            }
+
+
+        </Swiper>
+
+    );
 }

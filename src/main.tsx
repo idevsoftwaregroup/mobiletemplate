@@ -5,8 +5,6 @@ import 'beercss/dist/cdn/beer.css';
 import '../src/assets/font/pelak/font.css';
 import App from './App.tsx';
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

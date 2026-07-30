@@ -12,3 +12,10 @@
 .hero-banner nav {
   margin-top: 1.5rem;
 }
+.custom-input {
+    background-color: #f9f9f9;
+}
+
+.custom-input input {
+    background-color: transparent;
+}
