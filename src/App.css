@@ -13,9 +13,15 @@
   margin-top: 1.5rem;
 }
 .custom-input {
-    background-color: #f9f9f9;
+    background-color: #c7c7c724;
+    box-shadow: none !important;
+    color: grey !important;
 }
 
-.custom-input input {
-    background-color: transparent;
+.borderInput {
+    border-color: #c7c7c7 !important;
 }
+
+/*.custom-input input {
+    background-color: #f9f9f9;
+}*/

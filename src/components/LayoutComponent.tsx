@@ -13,7 +13,7 @@ export default function LayoutComponent() {
         <div className="responsive">
           <div className="no-space"></div>
             <div className="field label suffix no-border round extra custom-input ">
-                <input type="text" />
+                <input type="text" className="transparent border borderInput"/>
                 <label >جستجو کن</label>
                 <i>search</i>
             </div>
