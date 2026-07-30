@@ -49,11 +49,11 @@ export default function Banner() {
 
                     <SwiperSlide key={index}>
 
-                        <article className="card no-border blue-gray">
+                        <article className="card border borderInput round blue-gray transparent">
 
                       <div className="center-align"><img src={item.image} /></div>
 
-                            <text className="gray small right-align">
+                            <text className="small right-align transparent">
                                 محصول
                             </text>
 
