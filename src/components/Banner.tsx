@@ -32,9 +32,7 @@ export default function Banner() {
     ];
 
   const style = {
-    margin: "margin",
-    top: "top5",
-    bottom: "bottom5"
+    margin: "margin"
   }
 
     return (
@@ -43,7 +41,7 @@ export default function Banner() {
             spaceBetween={20}
             slidesPerView={2}
             loop={true}
-            className={`${style.margin} ${style.top} ${style.bottom}`}
+            className={`${style.margin}`}
         >
 
             {
@@ -53,7 +51,7 @@ export default function Banner() {
 
                         <article className="card no-border blue-gray">
 
-                      <div className={style.centerAlign}><img src={item.image} /></div>
+                      <div className="center-align"><img src={item.image} /></div>
 
                             <text className="gray small right-align">
                                 محصول

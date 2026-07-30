@@ -3,11 +3,7 @@ import Navbar from "./Navbar";
 import Banner from "./Banner";
 
 export default function LayoutComponent() {
-  const style = {
-    dirRTL: "RTL",
-    dirLTR: "LTR",
-    rightAlign: "right-align"
-  }
+
   return (
     <>
       <Navbar />
