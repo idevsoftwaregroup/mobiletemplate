@@ -34,8 +34,7 @@ export default function Banner() {
   const style = {
     margin: "margin",
     top: "top5",
-    bottom: "bottom5",
-    centerAlign: "center-align"
+    bottom: "bottom5"
   }
 
     return (
