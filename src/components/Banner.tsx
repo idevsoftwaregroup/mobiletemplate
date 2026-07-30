@@ -31,17 +31,15 @@ export default function Banner() {
         }
     ];
 
-  const style = {
-    margin: "margin"
-  }
+
 
     return (
 
         <Swiper
             spaceBetween={20}
-            slidesPerView={1}
+            slidesPerView={2}
             loop={true}
-            className={`${style.margin}`}
+
         >
 
             {
