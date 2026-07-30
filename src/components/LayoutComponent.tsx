@@ -32,6 +32,20 @@ export default function LayoutComponent() {
             <Banner />
           </div>
 
+          <div className="large-space"></div>
+
+          <div className="right-align padding ">
+
+
+            <div className="semi-bold large">مقاله/مطالب روز</div>
+</div>
+          <div>
+            <aside className="right small-width small-height padding">
+              <img className="responsive round" src="https://www.beercss.com/beer-and-woman.webp" />
+            </aside>
+            <h5 className="right-align margin bottom semi-bold"><a href="#">دوره های عملیات/توسعه</a></h5>
+            <p className="dirRTL">دوره های مربوط به DevOps به زودی در یک آموزشگاه معتبر در تهران شروع می شود. شما می توانید ...</p>
+          </div>
 
         </div>
 

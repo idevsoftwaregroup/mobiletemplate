@@ -23,9 +23,9 @@ export default function Navbar() {
             <i className={`${style.large}`}>account_circle</i>
           </button>
           <menu className="gray-container">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+            <li>دوره ها</li>
+            <li>پروژه ها</li>
+            <li>درباره ما</li>
           </menu>
 
 
